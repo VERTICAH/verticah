@@ -217,7 +217,7 @@ hr.footer-style {
 }
 
 .logo {
-	background: url("../images/verticah-logo.png");
+	background: url("https://verticah.com/assets/images/verticah-logo.png");
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: 170px;
@@ -228,7 +228,7 @@ hr.footer-style {
 /* Retina styles */
 @media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
 	.logo {
-		background-image: url("../images/verticah-logo.png");
+		background-image: url("https://verticah.com/assets/images/verticah-logo.png");
 		background-size: 170px;
 	}
 }
