@@ -68,7 +68,7 @@ body {
 	font-weight: 300;
 	color: #989898;
 	line-height: 1.7;
-	background: #f5f5f5;
+	background: #ffffff; /* used to be f5f5f5 */
 	word-break: keep-all;
 }
 
