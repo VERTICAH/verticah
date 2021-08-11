@@ -181,7 +181,7 @@ em, i {
 
 a {
 	color: #514f4e;
-	border-bottom: 2px solid #514f4e;
+	border-bottom: 1px solid #514f4e;
 	text-decoration: none;
 }
 
@@ -189,6 +189,23 @@ a:hover {
 	color: #989898;
 	border-bottom: none;
 	transition: .5s;
+}
+
+#lang {
+	color: #989898;
+	border-bottom: none;
+	transition: .5s;
+}
+
+#lang:hover {
+	color: #514f4e;
+	border-bottom: 1px solid #514f4e;
+	text-decoration: none;
+}
+
+#langbar {
+	margin-left: 0.7rem !important;
+	font-size: 1.4rem !important;
 }
 
 hr {
