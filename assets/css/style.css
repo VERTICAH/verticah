@@ -235,7 +235,7 @@ hr.footer-style {
 }
 
 .logo {
-	background: url("https://verticah.com/assets/images/verticah-logo.svg");
+	background: url("https://verticah.com/assets/images/verticah-templogo.png");
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: 170px;
@@ -246,7 +246,7 @@ hr.footer-style {
 /* Retina styles */
 @media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
 	.logo {
-		background-image: url("https://verticah.com/assets/images/verticah-logo.png");
+		background-image: url("https://verticah.com/assets/images/verticah-templogo.png");
 		background-size: 170px;
 	}
 }
@@ -291,7 +291,7 @@ hr.footer-style {
 }
 
 .footer {
-	background-image: url("https://verticah.com/assets/images/verticah-logo.svg");
+	background-image: url("https://verticah.com/assets/images/verticah-templogo.png");
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-size: 85px;
@@ -304,7 +304,7 @@ hr.footer-style {
 /* Retina styles */
 @media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
 	.footer {
-		background-image: url("https://verticah.com/assets/images/verticah-logo.svg");
+		background-image: url("https://verticah.com/assets/images/verticah-templogo.png");
 		background-size: 85px;
 	}
 }
