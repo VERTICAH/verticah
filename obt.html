@@ -24,64 +24,63 @@
 			<div class="row"></div><br><br>
 		
 		<div class="containter">
-			<link rel="stylesheet" href="https://s3.ap-northeast-2.amazonaws.com/resource.stibee.com/subscribe/stb_subscribe_form_style.css">
-			<div id="stb_subscribe">
-				<form action="mailto:admin@verticah.com" method="POST" target="_blank" accept-charset="utf-8" class="stb_form" name="stb_subscribe_form" id="stb_subscribe_form" novalidate="">
-					<h1 class="stb_form_title">Valuescope by VERTICAH</h1>
-					<p class="stb_form_description">스타트업을 위한 Valuation-as-a-Service<br><br>9월 20일 Open Beta Test 개시</p>
-					<fieldset class="stb_form_set">
-						<label for="stb_email" class="stb_form_set_label">
+			<div id="vs_subscribe">
+				<form action="mailto:admin@verticah.com" method="POST" target="_blank" accept-charset="utf-8" class="vs_form" name="vs_subscribe_form" id="vs_subscribe_form" novalidate="">
+					<h1 class="vs_form_title">Valuescope by VERTICAH</h1>
+					<p class="vs_form_description">스타트업을 위한 Valuation-as-a-Service<br><br>9월 20일 Open Beta Test 개시</p>
+					<fieldset class="vs_form_set">
+						<label for="vs_email" class="vs_form_set_label">
 							이메일
 						</label>
-						<input type="email" class="stb_form_set_input" id="stb_email" name="email" required="required">
+						<input type="email" class="vs_form_set_input" id="vs_email" name="email" required="required">
 						
-						<div class="stb_form_msg_error" id="stb_email_error"></div>
-					</fieldset><fieldset class="stb_form_set">
-						<label for="stb_Name" class="stb_form_set_label">
+						<div class="vs_form_msg_error" id="vs_email_error"></div>
+					</fieldset><fieldset class="vs_form_set">
+						<label for="vs_Name" class="vs_form_set_label">
 							이름
 						</label>
 						
-						<input type="text" class="stb_form_set_input" id="stb_Name" name="Name" required="required">
-						<div class="stb_form_msg_error" id="stb_Name_error"></div>
-					</fieldset><fieldset class="stb_form_set">
-						<label for="stb_Company" class="stb_form_set_label">
+						<input type="text" class="vs_form_set_input" id="vs_Name" name="Name" required="required">
+						<div class="vs_form_msg_error" id="vs_Name_error"></div>
+					</fieldset><fieldset class="vs_form_set">
+						<label for="vs_Company" class="vs_form_set_label">
 							소속
 						</label>
 						
-						<input type="text" class="stb_form_set_input" id="stb_Company" name="Company" required="required">
-						<div class="stb_form_msg_error" id="stb_Company_error"></div>
+						<input type="text" class="vs_form_set_input" id="vs_Company" name="Company" required="required">
+						<div class="vs_form_msg_error" id="vs_Company_error"></div>
 					</fieldset>
 		
 					
 		
-					<div class="stb_form_policy">
+					<div class="vs_form_policy">
 						<label>
-							<input type="checkbox" id="stb_policy" value="stb_policy_true" style="height: 20px;">
-							<button id="stb_form_modal_open" data-modal="stb_form_policy_modal" class="stb_form_modal_open_btn" type="button" style="height: 20px; line-height: 23px;">개인정보 수집 및 이용</button>에 동의합니다.
+							<input type="checkbox" id="vs_policy" value="vs_policy_true" style="height: 20px;">
+							<button id="vs_form_modal_open" data-modal="vs_form_policy_modal" class="vs_form_modal_open_btn" type="button" style="height: 20px; line-height: 23px;">개인정보 수집 및 이용</button>에 동의합니다.
 						</label>
-						<div class="stb_form_msg_error" id="stb_policy_error"></div>
-						<div class="stb_form_modal stb_form_policy_text blind" id="stb_form_policy_modal">
-							<div class="stb_form_modal_body">
-								<h1 class="stb_form_modal_title">개인정보 수집 및 이용</h1>
-								<p class="stb_form_modal_text">밸류스코프 발송을 위한 최소한의 개인정보를 수집하고 이용합니다. 수집된 정보는 아래 서술된 목적 등으로 사용됩니다.
+						<div class="vs_form_msg_error" id="vs_policy_error"></div>
+						<div class="vs_form_modal vs_form_policy_text blind" id="vs_form_policy_modal">
+							<div class="vs_form_modal_body">
+								<h1 class="vs_form_modal_title">개인정보 수집 및 이용</h1>
+								<p class="vs_form_modal_text">밸류스코프 발송을 위한 최소한의 개인정보를 수집하고 이용합니다. 수집된 정보는 아래 서술된 목적 등으로 사용됩니다.
 									<br>고객 관리: 재무제표 활용 의사 확인, 악성 고객(피싱, 스팸 등) 접근 방지, 신청횟수 관리, 민원처리, 공지 전달 등
 									<br>서비스 개선, 마케팅 및 광고에의 활용: 서비스 이용 통계 정보 수집, 서비스 효과 확인, 이벤트 및 광고성 정보 제공, 접속 빈도 수집 등
 									<br><br>고객 개인정보는 원칙적으로 서비스가 종료되거나 고객 탈퇴 의사를 표시할 경우 지체없이 파기하나, 원활한 서비스 제공을 위해 고객 탈퇴 의사를 표시한 경우에도 최대 1년간 고객 개인정보를 보관할 수 있습니다.</p>
-								<div class="stb_form_modal_btn">
-									<button id="stb_form_modal_close" class="stb_form_modal_close_btn" data-modal="stb_form_policy_modal" type="button" style="text-align:center;">닫기</button>
+								<div class="vs_form_modal_btn">
+									<button id="vs_form_modal_close" class="vs_form_modal_close_btn" data-modal="vs_form_policy_modal" type="button" style="text-align:center;">닫기</button>
 								</div>
 							</div>
-							<div class="stb_form_modal_bg" id="stb_form_modal_bg"></div>
+							<div class="vs_form_modal_bg" id="vs_form_modal_bg"></div>
 						</div>
 					</div>
-					<div class="stb_form_result" id="stb_form_result">
+					<div class="vs_form_result" id="vs_form_result">
 					</div><br>
-					<fieldset class="stb_form_set_submit">
-						<button type="submit" class="stb_form_submit_button" id="stb_form_submit_button" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); line-height: 1.7;;">사전신청하기</button>
+					<fieldset class="vs_form_set_submit">
+						<button type="submit" class="vs_form_submit_button" id="vs_form_submit_button" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); line-height: 1.7;">사전신청하기</button>
 					</fieldset>
 					</form>
 				</div>
-			<script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script><script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/resource.stibee.com/subscribe/stb_subscribe_form.js"></script>
+			<script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script><script type="text/javascript" src="assets/js/tooltip.js"></script>
 		</div>
 
 			<!--div class="row" style="margin-top:10rem;">
