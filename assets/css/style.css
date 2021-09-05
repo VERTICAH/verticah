@@ -238,8 +238,8 @@ hr.footer-style {
 	background: url("https://verticah.com/assets/images/verticah-logo2.svg");
 	background-repeat: no-repeat;
 	background-position: left top;
-	background-size: 100px;
-	height: 100px;
+	background-size: 80px;
+	height: 80px;
 	margin-top: 8%;
 }
 
@@ -247,7 +247,7 @@ hr.footer-style {
 @media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
 	.logo {
 		background-image: url("https://verticah.com/assets/images/verticah-logo2.svg");
-		background-size: 100px;
+		background-size: 80px;
 	}
 }
 
