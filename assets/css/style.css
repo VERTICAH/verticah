@@ -156,13 +156,13 @@ h5 {
 }
 
 h6 {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	line-height: 1.6;
 }
 
 @media (min-width: 550px) {
 	h6 {
-		font-size: 1.6rem;
+		font-size: 1.4rem;
 	}
 }
 
@@ -238,8 +238,8 @@ hr.footer-style {
 	background: url("https://verticah.com/assets/images/verticah-logo2.svg");
 	background-repeat: no-repeat;
 	background-position: left top;
-	background-size: 80px;
-	height: 80px;
+	background-size: 100px;
+	height: 100px;
 	margin-top: 8%;
 }
 
@@ -247,7 +247,7 @@ hr.footer-style {
 @media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
 	.logo {
 		background-image: url("https://verticah.com/assets/images/verticah-logo2.svg");
-		background-size: 80px;
+		background-size: 100px;
 	}
 }
 
